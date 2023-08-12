@@ -21,7 +21,7 @@ export default function Header() {
 
     return (
         <MDBNavbar expand='lg' light bgColor='white'>
-            <MDBContainer fluid>
+            <MDBContainer>
                 <MDBNavbarBrand href='#'>Vromon</MDBNavbarBrand>
 
                 <MDBNavbarToggler
