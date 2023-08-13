@@ -15,14 +15,24 @@ import {
     MDBDropdownItem,
     MDBCollapse,
 } from 'mdb-react-ui-kit';
-
+import logo from '../../Vlogo.png'
 export default function Header() {
     const [showBasic, setShowBasic] = useState(false);
 
     return (
         <MDBNavbar expand='lg' light bgColor='white'>
             <MDBContainer>
-                <MDBNavbarBrand href='#'>Vromon</MDBNavbarBrand>
+                <MDBNavbarBrand href='#'>
+
+                    <img
+                        src={logo}
+                        height='80'
+                        width='80'
+                        alt=''
+                        loading='lazy'
+                    />
+
+                    Vromon</MDBNavbarBrand>
 
                 <MDBNavbarToggler
                     aria-controls='navbarSupportedContent'

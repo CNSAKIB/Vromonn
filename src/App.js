@@ -5,6 +5,7 @@ import Banner from './Component/Banner/Banner';
 import Packages from './Component/Packages/Packages';
 import Login from './Component/Login/Login';
 import Footer from './Component/Footer/Footer';
+import AboutUs from './Component/AboutUs/AboutUs';
 function App() {
   return (
     <React.Fragment>
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <Packages />
       <Login />
+      <AboutUs />
       <Footer />
 
     </React.Fragment>
