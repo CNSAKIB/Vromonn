@@ -13,7 +13,7 @@ import bandarban from '../../Bandarban.jpg'
 import sajek from '../../Sajek.jpg'
 export default function Packages() {
     return (
-        <MDBContainer>
+        <MDBContainer id="pack">
             <h1 class="m-5 text-center">Our Packages</h1>
             <MDBRow className='mb-3'>
                 <MDBCol md='4'>

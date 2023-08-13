@@ -11,7 +11,7 @@ import {
 
 export default function AboutUs() {
     return (
-        <MDBContainer>
+        <MDBContainer id="aboutus">
             <h1 class="m-5 text-center">About Us</h1>
             <MDBRow className='mb-3'>
                 <MDBCol md='4'>

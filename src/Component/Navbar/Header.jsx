@@ -20,7 +20,7 @@ export default function Header() {
     const [showBasic, setShowBasic] = useState(false);
 
     return (
-        <MDBNavbar expand='lg' light bgColor='white'>
+        <MDBNavbar sticky expand='lg' light bgColor='white'>
             <MDBContainer>
                 <MDBNavbarBrand href='#'>
 
@@ -51,13 +51,13 @@ export default function Header() {
                             </MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink href='#'>Packages</MDBNavbarLink>
+                            <MDBNavbarLink href='#pack'>Packages</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink href='#'>About Us</MDBNavbarLink>
+                            <MDBNavbarLink href='#aboutus'>About Us</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink href='#'>Login</MDBNavbarLink>
+                            <MDBNavbarLink href='#login'>Login</MDBNavbarLink>
                         </MDBNavbarItem>
                     </MDBNavbarNav>
 
